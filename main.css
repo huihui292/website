@@ -17,10 +17,18 @@ ul#menu li a {
     padding: 16px;
     text-decoration: none;
 }
+ul#menu li a:hover
+    {
+    color: blue;
+    background-color: yellow;
+
+    }
 .body {
-    width:400px;
+    width:576px;
     margin:0 auto;
+    display:block;
 }
+
 
 html, body {
     margin: 0;
@@ -34,4 +42,12 @@ html, body {
     height: 100%;
     height: auto !important;
     min-height:100%;
+}
+#box
+{
+    background-color: darkgray;
+    padding: 20px;
+    border-color: black;
+    border-style: groove;
+    width: 100%;
 }
