@@ -1,0 +1,17 @@
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+body {
+    font-size:100%;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color:black;
+}
+
+.body {
+    width:576px;
+    margin:0 auto;
+    display:block;
+}

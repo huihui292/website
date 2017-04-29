@@ -4,31 +4,24 @@
 #yellow{color:yellow;}
 #cyan{color: cyan;}
 #top_header{color:darkcyan;,}
-#horizontal1{
-    position:absolute;
-    left: 50px;
-    height: auto;
+ul#menu li
+    {
+        display: inline;
+        list-style-type:none
     }
-#horizontal2{
-    position:absolute;
-    left: 120px;
-    height: auto;
-            }
-#horizontal3{
-    position:absolute;
-    left: 200px;
-    height: auto;;
-            }
-#horizontal4{
-    position:absolute;
-    left: 300px;
-    height: auto;
-            }
-#horizontal5{
-    position:absolute;
-    left: 400px;
-    height: auto;
-    }
+ul#menu li a {
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.body {
+    width:400px;
+    margin:0 auto;
+}
+
 html, body {
     margin: 0;
     padding: 0;
